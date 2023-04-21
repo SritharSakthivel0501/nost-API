@@ -1,0 +1,162 @@
+.cord{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(134, 209, 243);
+    cursor: pointer;
+}
+
+
+.forms {
+    background-color: rgb(134, 209, 243);
+    margin-left: 445px;
+    height: 328px;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 319px;
+    display: none;
+}
+.formstwo{
+    background-color: rgb(134, 209, 243);
+    margin-left: 445px;
+    height: 328px;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 319px;
+    display: none;
+}
+.show{
+    display: block;
+}
+.addicon {
+    color: rgb(7, 31, 0);
+    font-size: 90px;
+    margin-left: 55px;
+}
+input.int1 {
+    margin: 29px 10px 10px 19px;
+    width: 275px;
+    height: 24px;
+}
+.editint1{
+    margin: 29px 10px 10px 19px;
+    width: 275px;
+    height: 24px;
+}
+.int2 {
+    margin-left: 20px;
+    width: 260px;
+    font-size: 14px;
+    height: 130px;
+    padding: 5px 10px;
+    outline: none;
+    border-radius: 5px;       
+}
+.editint2{
+    margin-left: 20px;
+    width: 260px;
+    font-size: 14px;
+    height: 130px;
+    padding: 5px 10px;
+    outline: none;
+    border-radius: 5px;  
+}
+button.btn {
+    margin-left: 111px;
+    margin-top: 10px;
+    border-radius: 7px;
+    padding: 8px 30px;
+    border: none;
+    color: white;
+    background-color: rgb(19, 37, 12);
+    cursor: pointer;
+
+}
+.updatebtn{
+    margin-left: 111px;
+    margin-top: 10px;
+    border-radius: 7px;
+    padding: 8px 30px;
+    border: none;
+    color: white;
+    background-color: rgb(19, 37, 12);
+    cursor: pointer;
+}
+
+
+#del{
+    color: red;
+    cursor: pointer;
+}
+i#del {
+    margin-left: 291px;
+    margin-top: 10px;
+}
+
+p.content {
+    word-wrap: break-word;
+    height: 100px;
+    overflow-x: hidden;
+
+}
+
+.content::-webkit-scrollbar{
+    display: none;
+}
+.titles{
+    word-wrap: break-word;
+    overflow-x: hidden;
+}
+.titles::-webkit-scrollbar{
+    display: none;
+}
+
+.shadow{
+    opacity: 0.5;
+}
+.listdivs {
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgb(134, 209, 243);
+    height: 200px;
+    width: 200px;
+    margin-left: 43px;
+    border-radius: 10px;
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+.delbtn {
+    border: none;
+    color: red;
+    background-color: rgb(134, 209, 243);
+    margin-left: 154px;
+    cursor: pointer;
+}
+.editbtn {
+    border: none;
+    color: green;
+    background-color: rgb(134, 209, 243);
+    margin-left: 93px;
+    cursor: pointer;
+    position: relative;
+    bottom: 18px;
+}
+input#fname {
+    padding: 10px 5px;
+}
+
+
+
+
+
+
+
